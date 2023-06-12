@@ -94,7 +94,8 @@ option_imgs.forEach(option_img =>{
 
             // noOfPlays++;
 
-            if(noOfPlays === 5 && chances == 0){
+            // if(noOfPlays === 5 && chances == 0){
+                if(noOfPlays === 5 ){
 
                 setTimeout(()=>{
                     if(userPoints>compPoints){
@@ -107,7 +108,7 @@ option_imgs.forEach(option_img =>{
                         result.style.color = "red";
                     }
     
-                    else if(userPoints==compPoints){
+                    else if(userPoints === compPoints){
                         result.innerHTML = "It is a Draw!";
                         result.style.color = "rgb(120, 80, 80)";
                     }
@@ -120,9 +121,9 @@ option_imgs.forEach(option_img =>{
                     compPointsDisplay.innerHTML = "";
     
                     noOfPlays = 0;
-                    chances = 0;
+                    chances = 5;
          
-                    chancesRemaining.innerHTML = `Chances Remaining: ${0}`;
+                    chancesRemaining.innerHTML = `Chances Remaining: ${chances}`;
 
                 },1000);
                

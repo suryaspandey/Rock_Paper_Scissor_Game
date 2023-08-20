@@ -4,8 +4,11 @@ This is a simple Rock Paper Scissors game implemented in JavaScript.
 
 **Rules of the Game**
 The game follows the classic rules of Rock Paper Scissors:
+
 Rock beats Scissors
+
 Scissors beats Paper
+
 Paper beats Rock
 
 **How to Play**

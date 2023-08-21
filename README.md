@@ -1,6 +1,8 @@
 # Rock_Paper_Scissor_Game
 
-This is a simple Rock Paper Scissors game implemented in JavaScript.
+Developed a fun and interactive Rock Paper Scissors game using JavaScript that allows users to play against the computer.
+
+**Features**
 
 **Rules of the Game**
 The game follows the classic rules of Rock Paper Scissors:

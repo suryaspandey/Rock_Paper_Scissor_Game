@@ -4,6 +4,15 @@ Developed a fun and interactive Rock Paper Scissors game using JavaScript that a
 
 **Features**
 
+• Created a user-friendly interface with HTML and CSS to provide an intuitive gaming experience.
+
+• Utilized JavaScript to implement game logic, enabling players to choose between rock, paper, and scissors.
+
+• Incorporated random selection by the computer, ensuring unpredictability and a fair gaming environment.
+
+• Displayed game results dynamically, indicating whether the player won, lost, or tied against the computer.
+
+
 **Rules of the Game**
 The game follows the classic rules of Rock Paper Scissors:
 

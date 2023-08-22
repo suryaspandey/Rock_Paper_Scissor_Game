@@ -2,7 +2,7 @@
 
 Developed a fun and interactive Rock Paper Scissors game using JavaScript that allows users to play against the computer.
 
-**Features**
+## Features
 
 • Created a user-friendly interface with HTML and CSS to provide an intuitive gaming experience.
 
@@ -30,7 +30,7 @@ Paper beats Rock
 5. The game will keep track of the user's and computer's points.
 6. After 5 rounds, the final winner will be determined and displayed.
 
-**Technologies Used**
+## Technologies Used
 HTML
 CSS
 JavaScript

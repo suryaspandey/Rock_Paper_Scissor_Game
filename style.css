@@ -1,106 +1,132 @@
-body{
-    padding: 0;margin: 0;
-    background-color: #f0e8e8;
+body {
+  padding: 10px;
+  margin: 0;
+  background-color: #f0e8e8;
 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
 }
 
-#gameName{
-    color: rebeccapurple;
-    font-size: large;
+#gameName {
+  color: rebeccapurple;
+  font-size: large;
 }
 
- #userPoints{
-    /* color: rgb(23, 178, 23); */
-    font-size: xx-large;
-} 
-
-#compPoints{
-    /* color: red; */
-    font-size: xx-large;
-} 
-
-#result{
-    color: red;
+#userPoints {
+  /* color: rgb(23, 178, 23); */
+  font-size: xx-large;
 }
 
-h1,h2{
-    text-align: center;
-
+#compPoints {
+  /* color: red; */
+  font-size: xx-large;
 }
 
-h1,h2,h3,h4{
-    color: white;
-    margin: 15px;
+#result {
+  color: red;
 }
 
-.container{
-    /* display: flex; justify-content: center; align-items: center;
+h1,
+h2 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  margin: 15px;
+}
+
+.container {
+  /* display: flex; justify-content: center; align-items: center;
     background-color: rebeccapurple; */
-    border-radius: 5%;
-    display: flex;
-    justify-content: center;
-    background-color: #c4a6e2c7;
-    flex-direction: column;
-    align-content: stretch;
-    flex-wrap: wrap;
-    align-items: center;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: #c4a6e2c7;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: wrap;
+  align-items: center;
+  /* width: 100%; */
 
-    /* border: 8px solid rosybrown; */
-    /* box-shadow: 14px 9px 13px 0px #44eed747; */
-    box-shadow: 14px 9px 13px 0px #ad7bdead;
-
+  /* border: 8px solid rosybrown; */
+  /* box-shadow: 14px 9px 13px 0px #44eed747; */
+  box-shadow: 14px 9px 13px 0px #ad7bdead;
 }
 
-.img-container, .image-options{
-    display: flex;
-    margin: auto;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    gap: 55px;
+.img-container,
+.image-options {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 23px;
 }
 
-.option-img:hover{
-    transform: scale(1.02);
+.option-img:hover {
+  transform: scale(1.02);
 }
 
-img{
-    height: 150px;
-    width: 150px;
-    border-radius: 29%;
-    padding: 10px;
-    /* border: 2px solid green;
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 29%;
+  padding: 10px;
+  /* border: 2px solid green;
     box-shadow: 14px 9px 13px 0px #9bd2bf; */
 
-    border: 3px solid rosybrown;
-    box-shadow: 14px 9px 13px 0px #5864db47;
+  border: 3px solid rosybrown;
+  box-shadow: 14px 9px 13px 0px #5864db47;
 }
 
-.image-options{
-    cursor: pointer;
-    /* height:100px;
+.image-options {
+  cursor: pointer;
+  /* height:100px;
     width: 100px; */
 
-    margin-bottom: 20px;
-    margin-right: 50px;
+  margin-bottom: 20px;
+  margin-right: 50px;
 }
 
-.image-options img{
-    /* cursor: pointer; */
-    height:100px;
+.image-options img {
+  /* cursor: pointer; */
+  height: 100px;
+  width: 100px;
+}
+
+.result-section {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 75px;
+}
+
+@media only screen and (max-width: 420px) {
+  .img-container,
+  .image-options {
+    gap: 8px;
+  }
+
+  #user-img,
+  #comp-img {
+    height: 100px;
     width: 100px;
-}
-
-.result-section{
-    font-size: 1.4rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 75px;
+  }
+  .image-options {
+    margin-right: 6px;
+    gap: 6px;
+  }
+  .image-options img {
+    height: 85px;
+    width: 85px;
+  }
 }

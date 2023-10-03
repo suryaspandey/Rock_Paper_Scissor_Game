@@ -1,0 +1,11 @@
+{
+  "name": "rock_paper_scissor_game",
+  "version": "1.0.0",
+  "description": "Developed a fun and interactive Rock Paper Scissors game using JavaScript that allows users to play against the computer.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
